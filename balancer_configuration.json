@@ -1,0 +1,15 @@
+{
+    "width_of_image": 128,
+    "height_of_image": 128,
+    "number_of_channels": 3,
+
+    "number_of_neighbors": 10,
+
+    "batch_size": 128,
+    "number_of_epochs": 1,
+    
+    "delta": 5,
+    "latent_dimension":100,
+    "learning_rate":0.002,
+    "beta":0.5
+}

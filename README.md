@@ -1,3 +1,5 @@
+**Goal:** Analyzing the Impact of Imbalanced and Balanced Maritime Code Flag Datasets on the Performance of Two-Stage Image Detectors.
+
 ## 1. UML
 TODO
 

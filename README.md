@@ -1,4 +1,11 @@
-**Goal:** Analyzing the Impact of Imbalanced and Balanced Maritime Code Flag Datasets on the Performance of Two-Stage Image Detectors (R-CNN, Faster R-CNN and Mask R-CNN).
+**Goal:** Research the Impact of Imbalanced and Balanced Maritime Code Flag Datasets on the Performance of Two-Stage Image Detectors (R-CNN, Faster R-CNN and Mask R-CNN).
+
+**Main metrics:**
+* intersection over union (IoU),
+* precision and recall,
+* average precision (AP),
+* mean average precision (mAP),
+* F1 score (trade-off between precision and recall).
 
 ## 1. UML
 TODO

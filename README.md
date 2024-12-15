@@ -24,7 +24,8 @@ TODO
 │   ├── two_flags            <- Balanced two flags (A and B) per 1000 images
 │   └── imbalanced_flags     <- Source folder with imbalanced flags
 ├── balance.py <- Balancing dataset by using balancers package (BALANCING)
-└── balancer_configuration.json <- Balancer configuration
+├── balancer_configuration.json <- Balancer configuration
+└── detection.py <- Training and testing image detectors (EVALUATING)
 ```
 ## 3. Balancing approaches
 ### 3.1 Augmentation

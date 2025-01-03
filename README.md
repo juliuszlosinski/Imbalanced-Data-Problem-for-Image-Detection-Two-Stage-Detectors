@@ -1,3 +1,12 @@
+**Goal:** Research the Impact of Imbalanced and Balanced Maritime Code Flag Datasets on the Performance of Two-Stage Image Detectors (R-CNN, Faster R-CNN and Mask R-CNN).
+
+**Main metrics:**
+* intersection over union (IoU),
+* precision and recall,
+* average precision (AP),
+* mean average precision (mAP),
+* F1 score (trade-off between precision and recall).
+
 ## 1. UML
 TODO
 
@@ -24,7 +33,8 @@ TODO
 │   ├── two_flags            <- Balanced two flags (A and B) per 1000 images
 │   └── imbalanced_flags     <- Source folder with imbalanced flags
 ├── balance.py <- Balancing dataset by using balancers package (BALANCING)
-└── balancer_configuration.json <- Balancer configuration
+├── balancer_configuration.json <- Balancer configuration
+└── detection.py <- Training and testing image detectors (EVALUATING)
 ```
 ## 3. Balancing approaches
 ### 3.1 Augmentation
